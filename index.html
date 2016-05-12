@@ -1,0 +1,278 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Aplicacion siete</title>
+ 
+<!--grupo CSS-->
+<link rel="stylesheet" href="css/temasapp7.min.css"/>
+<link rel="stylesheet" href="css/jquery.mobile.icons-1.4.5.min.css"/>
+<link rel="stylesheet" href="css/jquery.mobile.structure-1.4.5.min.css"/>
+<!--grupo JavaScript-->
+<script src="js/jquery-1.11.2.min.js"></script>
+<script src="js/jquery.mobile-1.4.5.min.js"></script>
+<script src="js/acciones.js"></script>
+<script src="phonegap.js" type="text/javascript"></script>
+<script type="text/javascript">
+function MM_swapImgRestore() { //v3.0
+  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+}
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+
+function MM_findObj(n, d) { //v4.01
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+
+function MM_swapImage() { //v3.0
+  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+}
+</script>
+</head>
+ 
+<body onLoad="MM_preloadImages('imagenes/atlix4.png','imagenes/bata7.png','imagenes/atlix1.png','imagenes/bata5.png')">
+<div data-role="page" id="Principal" data-theme="a">
+   <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="a">
+     <h1 align="center">BATALLA DEL 5 DE MAYO</h1>
+  </div>
+   <div align="center"><a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image16','','imagenes/atlix4.png',1)"><img src="imagenes/bata7.png" width="259" height="194" id="Image16"></a></div>
+  <div>
+    <ul data-role="listview" data-theme="b" class="ui-listview ui-group-theme-a">
+    <li class="ui-first-child ui-last-child">
+    <a href="#Pagina1" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+    <h2>Antecedentes del conflicto</h2>
+    </a>
+     </li>
+     <li class="ui-first-child ui-last-child">
+       <a href="#Pagina2" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+       <h2>Personajes importantes</h2>
+       </a>
+     </li>
+    <li class="ui-first-child ui-last-child">
+      <a href="#Pagina3" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+      <h2>Fecha </h2>
+      </a>
+    </li>
+   <li class="ui-first-child ui-last-child">
+   <a href="#Pagina4" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+      <h2>Desarrollo de la contienda</h2>
+   </a>
+   </li>
+   <li class="ui-first-child ui-last-child">
+      <a href="#Pagina5" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+      <h2>Culminacion de la batalla</h2>
+      </a>
+      </li>
+      <li class="ui-first-child ui-last-child">
+      <a href="#Pagina6" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+      <h2>Actualmente</h2>
+      </a>
+      </li>
+   </ul>
+</div>
+<div data-role="footer" align="center" data-theme="a" data-position="fixed">
+   <div>
+     <h4>Mayra Rojas Dominguez</h4>
+     <p><img src="res/android/mdpi.png" width="92" height="64"></p>
+   </div>
+</div>
+</div>
+
+<div data-role="page" id="Pagina1" data-add-back-btn="true" data-theme="a">
+     <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="a">
+  <h1><strong>Antecedentes del conflicto</strong></h1>
+  </div>
+ <div data-role="content">
+  <div>
+    <p align="center"><a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image18','','imagenes/bata7.png',1)"><img src="imagenes/bata4.png" width="640" height="392" id="Image"></a></p>
+    <p>      En octubre de 1861, <strong>Francia, Inglaterra y España</strong> suscribieron la <strong>Convención de Londres</strong>, en la cual se comprometieron a enviar contingentes militares a México ya que este tenía una <strong>gran deuda de 80 millones de pesos</strong>, aproximadamente eran 69 millones para los ingleses, 9 millones para los españoles y 2 millones para Francia. 
+    </p>
+    <p>La alianza tripartita amenazó al presidente Benito Juarez con una invasión inminente si no se saldaba por completo las deudas que México tenía con los tres países europeos.</p>
+      <p>Juarez responde con un exhorto para  lograr un arreglo amistoso, y los invitó a conferenciar. Sin embargo, sabía que había una guerra inminente y trató de proteger la Ciudad de México trasladando pertrechos y  ordenó la fortificación de Puebla. Creo al <strong>Ejército de Oriente</strong> y el hombre que se designó en el mando fue el general <strong>Ignacio Zaragoza</strong>.</p>
+      <p>En un principio la <strong>Alianza Tripartita</strong> aceptó el llamado al diálogo de Benito Juarez y sus representantes se reunieron con <strong>Manuel Doblado</strong>, ministro de Relaciones Exteriores del gobierno mexicano, quien consiguió que <strong>Juan Prim</strong>, representante español, y <strong>Lord John Russell</strong> por Inglaterra se retiraran. A este acuerdo se le conoce como los <strong>Tratados Preliminares de la Soledad</strong>.</p>
+      <p>El 5 de marzo, cuando aún se realizaban las negociaciones de los Tratados de la Soledad, llegó a Veracruz un contingente militar francés bajo el mando de Charles Ferdinand Latrille, conde de Lorencez. A finales de abril, Lorencez desconoció los Tratados de Soledad y se puso en marcha, junto con sus efectivos, hacia Puebla, con el fin último de conquistar la Ciudad de México.</p>
+    </div>
+ </div>
+<div data-role="footer" data-theme="a" data-position="fixed">
+  <h4 align="center">Mayra Rojas Dominguez</h4>
+  <p align="center"><img src="res/android/mdpi.png" width="126" height="91"></p>
+  </div>
+</div>
+</div>
+ 
+<div data-role="page" id="Pagina2" data-add-back-btn="true" data-theme="a">
+   <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="a">
+     <h1>Personajes importantes</h1>
+ </div>
+ <div data-role="content">
+ <div>
+ <div data-role="collapsible" data-content-theme="false">
+  <h1>Benito Juarez</h1>
+     <div>
+ <p align="center"><img src="imagenes/descarga2.png" width="199" height="253"></p>
+ <p>Benito Pablo Juárez García, nació en San Pablo Guelatao, Oaxaca un 21 de marzo de 1806, engalanando las filas de la política mexicana dentro del Partido Liberal. Abogado de profesión, ocupo el cargo de Presidente de México en varias ocasiones, en 1858 y posteriormente en 1872. A pasado a la historia como el &ldquo;Benemérito de las Américas y se le recuerda por la celebre frase: Entre los individuos, como entre las naciones, el respeto al derecho ajeno es la paz.</p>
+ <p>La vida de Benito Juárez, transcurrió durante la época más relevante del país, considerada como la consolidación de la nación como una República.</p>
+ </div>
+ </div>
+ <div data-role="collapsible" data-content-theme="false">
+  <h1>Charles Ferdinand Latrille</h1>
+     <div>
+ <p align="center"><img src="imagenes/descarga.png" width="260" height="170"></p>
+ <p>Charles Ferdinand Latrille, Comte de Lorencez, nació en París un 23 de mayo de 1814, ingresa a la Escuela Militar Especial de Saint-Cyr en 1830, siendo promovido al puesto en 1832. Su primera encomienda la tiene en Argelia, obteniendo el grado de Coronel en 1852 y luego el de General de Brigada en 1855 durante guerra de Crimea.
+  <br>
+  <br>
+   Su incursión en la historia de México fue en enero de 1862, cuando es enviado a México con refuerzos de L’Herillier y Gambier para la expedición del país. Es promovido General de División el 20 de marzo, tan solo 15 días después de haber llegado a Veracruz; y para el 27 de abril, asumió el mando de todas las tropas francesas en México.
+  <br>
+  <br>
+   Días antes de la Batalla de Puebla, Charles Ferdinand, combatió al Gral. Ignacio Zaragoza en las Cumbres de Acultzingo el18 de abril, para llegar a Orizaba el 20 de abril donde se fortifica a la espera de refuerzos, mismos que nunca llegaron..</p>
+     </div>
+ </div>
+ <div data-role="collapsible" data-content-theme="false">
+  <h1>Ignacio Mejia Álvarez</h1>
+     <div>
+ <p align="center"><img src="imagenes/descarga1.png" width="207" height="244"></p>
+ <p>Ignacio Mejía Álvarez, nació en Oaxaca el 4 de agosto de 1814. Reconocido militar y político mexicano participó en la Primera Intervención Estadounidense en México, además de la Guerra de Reforma y otras guerras civiles.
+  <br>
+  <br>
+   En su carrera política llego a ocupar cargos de Secretario del Comandante de Armas del Estado de Oaxaca, General Isidro Reyes, en 1832. Para 1846, llegó a ocupar una curul de diputado local. Durante la Guerra de Reforma apoyó a los liberales y al Gobierno de Juárez, a quién había conocido con anterioridad. Asimismo, fue Secretario de Guerra y Marina durante la Presidencia de Benito Juárez.
+  <br>
+  <br>
+   Durante la Segunda Intervención Francesa, fue Jefe de la División Oaxaca y participó en la heroica Batalla de Puebla al lado del Gral. Ignacio Zaragoza, teniendo como trinchera el Fuerte de Guadalupe.</p>
+     </div>
+ </div>
+ 
+  <div data-role="collapsible" data-content-theme="false">
+  <h1> Porfirio Díaz</h1>
+     <div>
+ <p align="center"><img src="imagenes/Porfirio_Diaz.png" width="238" height="306"></p>
+ <p>José de la Cruz Porfirio Díaz Morí, nació en Oaxaca; hijo de José de la Cruz Díaz y Petrona Mori. Huérfano a los tres años, aún niño, trabajó para ayudar a su madre en el sostenimiento del hogar. Estudio de leyes. En 1846 se alistó en la Guardia Nacional para combatir la invasión estadunidense, pero no intervino en la lucha.
+  <br>
+  <br>
+   Simpatizante del Plan de Ayutla, al terminar ese movimiento se le nombró prefecto de Ixtlán. Durante la Guerra de Tres Años combatió al lado de los liberales. Asciende a general de brigada en agosto de 1861. En dicho año fue electo diputado, pero desempeña el cargo muy breve tiempo. Lucha contra la intervención francesa; jefe de una brigada en Acultzingo en abril de 1862.</p>
+     </div>
+ </div>
+ 
+<div data-role="footer" data-theme="a" data-position="fixed">
+  <h4 align="center">Mayra Rojas Dominguez</h4>
+  <p align="center"><img src="res/android/mdpi.png" width="126" height="91"></p>
+  </div>
+</div>
+</div>
+</div>
+
+<div data-role="page" id="Pagina3" data-add-back-btn="true" data-theme="a">
+   <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="a">
+ <h1>Fecha</h1>
+ </div>
+ <div data-role="content">
+ <div>
+   <p align="center"><a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image19','','imagenes/atlix1.png',1)"><img src="imagenes/atlix.png" width="271" height="186" id="Image19"></a></p>
+   <p>El 5 de mayo suele ser un día festivo (a menos que caiga en domingo como este año) en el que todos aprovechamos para salir de puente y descansar. Pero, ¿por qué es asueto este día?</p>
+   <p>     La conmemoración de la Batalla de Puebla es la fecha más significativa del calendario cívico mexicano (después del Día de la Independencia y de la Revolución), al tratarse de una de las escasas victorias ante un ejército extranjero.</p>
+   <p>     Simbólicamente, representa las grandes empresas que los mexicanos pueden intentar y conseguir si olvidan sus divisiones y se sobreponen a sus carencias   </p>
+   <h2>¿Qué pasó el 5 de mayo?</h2>
+   <p>     En 1862, cerca de la ciudad de Puebla, se libró un combate entre los ejércitos de la República Mexicana y los del Segundo Imperio Francés, durante la 2ª intervención Francesa a México.</p>
+   <p>     De nuestro lado fue el comandante Ignacio Zaragoza quien dirigió a nuestro ejército hacia ganar esa batalla, que aunque no impidió la invasión, sí la retrasó en una guerra que eventualmente ganamos.</p>
+   <p>
+ </div>
+ </div>
+<div data-role="footer" data-theme="a" data-position="fixed">
+  <h4 align="center">Mayra Rojas Dominguez</h4>
+  <p align="center"><img src="res/android/mdpi.png" width="126" height="91"></p>
+</div>
+</div>
+</div>
+</div>
+
+<div data-role="page" id="Pagina4" data-add-back-btn="true" data-theme="a">
+ <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="a">
+ <h1>Desarrollo de la contienda</h1>
+ </div>
+ <div data-role="content" >
+ <div> <!-- Start WOWSlider.com -->
+<iframe src="visor/index.html" style="width:700px;height:300px;max-width:100%;overflow:hidden;border:none;padding:0;margin:0 auto;display:block;" marginheight="0" marginwidth="0"></iframe>
+<!-- End WOWSlider.com -->
+<p>
+Asegurado el paso de Acultzingo, el 2 de mayo de 1862 la columna principal del ejército expedicionario francés salió de San Agustín del Palmar, en Veracruz, para cruzar la Sierra Madre Oriental y dirigirse hacia Puebla, paso obligado para llegar a la capital del país y que era además uno de los bastiones del Partido Conservador, donde esperaban ser recibidos "con una lluvia de rosas", como le aseguró Saligny a Napoleón III en una carta. El 3 de mayo por la noche, el general Zaragoza arribó a Puebla, dejando en su retaguardia una brigada de caballería para hostigar a los invasores. Los efectivos del Ejército de Oriente se organizaron por las calles desiertas de la ciudad, ya que la mayoría de la población era partidaria de la invasión.<br>
+<br>
+Fuertes de la ciudad de Puebla
+Zaragoza estableció su cuartel a unos cuantos metros de la línea de batalla, donde estableció el plan para la defensa de la plaza (ver tabla superior), que consistió en concentrar los pertrechos en el sur y oriente de la ciudad, esperando evitar que los franceses alcanzaran al área urbana de Puebla.
+<br>
+<br>
+El 4 de mayo, los exploradores mexicanos volvieron con noticias de que una columna de conservadores a caballo, al mando de Leonardo Márquez y José María Cobos, marchaba por la zona de Atlixco para unirse con las fuerzas de Lorencez en el ataque a Puebla. Zaragoza envió una brigada de 2000 hombres bajo el mando de Tomás O'Horán y Antonio Carbajal, con el fin de detenerlo, lo cual lograron. Aunque sus fuerzas habían disminuido, los mexicanos se prepararon para la defensa de Puebla. Contaban con dos baterías de artillería de batalla y dos de montaña, cubriendo los fuertes con 1200 hombres y formando a otros 3500 en cuatro columnas de infantería con una batería de batalla y una brigada de caballería por el lado del camino a Amozoc.
+<br>
+<br>
+El ala derecha mexicana la cubrían las tropas de Oaxaca dirigidas por Porfirio Díaz. El centro de la línea lo ocuparon Felipe Berriózabal y Francisco Lamadrid con las tropas del Estado de México y San Luis Potosí. La izquierda se apoyó en el cerro de Acueyametepec ubicado en el norte de la ciudad y en cuya cumbre se ubicaban los Fuertes de Loreto y Guadalupe, con el general Miguel Negrete a la cabeza de la Segunda División de Infantería. La artillería sobrante la colocaron en los fortines y reductos dentro de Puebla, quedando al mando del general Santiago Tapia.
+<br>
+<br>
+A las 9:15 de la mañana del 5 de mayo, los franceses aparecieron en el horizonte, avanzando desde la cercana Hacienda de Rementería, cruzando fuego con las guerrillas de caballería que se batían en retirada y que no se replegaron hasta que las líneas francesas estuvieron formadas y listas para avanzar. La batalla se inició en forma a las 11:15 de la mañana, anunciándose con un cañonazo desde el Fuerte de Guadalupe y acompañado por los repiques de las campanas de la ciudad. En ese momento se dio una maniobra sorpresiva: la columna francesa, que venía avanzando en orden de oriente a poniente, se dividió en dos: la primera, compuesta por aproximadamente 4000 hombres y protegida con su artillería, dio un violento viraje hacia la derecha y se dirigió hacia los fuertes; mientras que la segunda columna, compuesta por el resto de la infantería, quedó como reserva.
+ </div>
+  </div> 
+<div data-role="footer" data-theme="a" data-position="fixed">
+  <h4 align="center">Mayra Rojas Dominguez</h4> 
+  <p align="center"><img src="res/android/mdpi.png" width="126" height="91"></p>
+ </div>
+</div>
+</div>
+
+<div data-role="page" id="Pagina5" data-add-back-btn="true" data-theme="a">
+ <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="a">
+ <h1>Culminacion de la batalla</h1>
+ </div>
+ <div data-role="content" >
+ <div>
+ <iframe width="350" height="315" src="https://www.youtube.com/embed/56s81BZzljs" frameborder="0" allowfullscreen></iframe> 
+ <p>   Fue el 5 de Mayo de 1862 cuando el General Laurencez al mando de las tropas francesas ordenó el asalto a los fuertes de Loreto y Guadalupe, que defendían la ciudad de Puebla al mando del General Ignacio Zaragoza; el ejercito invasor que fue rechazado con grandes pérdidas al intentar repetidas veces tomar las fortificaciones, al final tuvieron que abandonar el campo y retirarse vencidos y perseguidos por la caballería mexicana, la noticia del triunfo en Puebla llenó de entusiasmo a todo el país, moralmente levantó a el pueblo que se encontraba desanimado y temeroso por una posible invasión.  
+ <p>   Pero este no fue el fin de toda la guerra ya que en junio de 1864, un grupo de conservadores marchó a Francia a ofrecer el gobierno al Emperador Francés Napoleón III; ya que este tenía planes de extender el Imperio Francés mandó a Maximiliano de Habsburgo a tomar el trono y formar el Imperio de México.
+   <br>
+   <br>
+   Maximiliano de Habsburgo y su esposa Carlota (austriacos) llegaron a la ciudad de México para instalar el Imperio Mexicano y fueron coronados como el Emperador y la Emperatriz de México. Aunque Maximiliano organizó la administración del gobierno, liberó a los indios de la esclavitud, y desarrolló los recursos naturales del país, no pudo evitar la oposición del pueblo Mexicano. Los republicanos, al mando de Benito Juárez, no aceptaron la intervención extranjera. Se refugiaron en el norte del país y les pidieron ayuda a los californianos y a otras colonias mexicano-norteamericanas con financiamiento y voluntarios para la lucha.
+   <br>
+   <br>
+   Maximiliano fue derrotado y capturado el 15 de mayo de 1867; fue juzgado por una corte marcial y ejecutado por una escuadra de fusilamiento el 19 de junio en el Cerro de las Campanas con sus generales Miguel Miramón y Tomás Mejía.   
+ <p>La Batalla de Puebla simboliza el espíritu de lucha y el amor a la independencia que caracteriza el pueblo mexicano.<br>
+Finalmente, el ejército francés fue derrotado y el General Ignacio Zaragoza, mandó un mensaje telegráfico al presidente Juárez, que decía &ldquo;<strong>Las armas nacionales se han cubierto de gloria</strong>&rdquo;   
+ </div>
+ </div>
+ <div data-role="footer" data-theme="a" data-position="fixed">
+ <h4 align="center">Mayra Rojas Dominguez</h4>
+ <p align="center"><img src="res/android/mdpi.png" width="126" height="91"></p>
+ </div>
+ </div>
+ </div>
+ 
+<div data-role="page" id="Pagina6" data-add-back-btn="true" data-theme="a">
+ <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="a">
+ <h1>Actualmente</h1>
+ </div>
+ <div data-role="content" >
+ <div>
+ <p align="center"><a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image20','','imagenes/bata5.png',1)"><img src="imagenes/bata.png" width="480" height="320" id="Image20"></a>
+ <p>La Batalla de Puebla simboliza el espíritu de lucha y el amor a la independencia que caracteriza el pueblo mexicano.
+   <br>
+   <br>
+   Actualmente éste día se celebra realizando ceremonias cívicas, en muchas ciudades se realizan desfiles. En la Ciudad de Nueva York se realizan diferentes festivales. En el año 2006 se realizó el primer desfile del 5 de Mayo
+   <br>
+   <br>
+   En muchas ciudades de Estados Unidos se realizan diversos festivales en donde se reúnen integrantes de los consulados, mariachis, bandas mexicanas, restaurantes, artesanos y la población inmigrante que ahí habita. Uno de los festejos más grandes es el que se realiza en la Placita Olvera en la ciudad de Los Ángeles, California. Justo en esta ciudad la Unión de Poblanos en el Exterior organiza un festival con ceremonias cívicas y culturales.</p>
+   <br>
+   <h2>Página Oficial</h2>
+<iframe src="http://www.5demayopuebla.mx/" style="width:800px;height:800px;max-width:100%;overflow:hidden;border:none;padding:0;margin:0 auto;display:block;" marginheight="0" marginwidth="0"></iframe>
+ </div>
+ </div>
+ <div data-role="footer" data-theme="a" data-position="fixed">
+ <h4 align="center">Mayra Rojas Dominguez</h4>
+ <p align="center"><img src="res/android/mdpi.png" width="126" height="91"></p>
+ </div>
+ </div>
+ </div>
+</body>
+ </html>
